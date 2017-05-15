@@ -1,4 +1,4 @@
-# Cl-aozora
+# cl-aozora
 
 あおぞら文庫フォーマットのパーサ。
 
