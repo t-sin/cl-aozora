@@ -5,10 +5,11 @@
 ## Usage
 
 ```lisp
-CL-USER> (cl-aozora:parse "もじれつ")
-("もじれつ")
-CL-USER> (cl-aozora:render ("もじれつ"))
-"もじれつ"
+CL-USER> (cl-aozora:parse "おれは頗《すこぶ》る気分がいい")
+("おれは" (:ruby "頗" "すこぶ") "る気分がいい")
+CL-USER> (cl-aozora:render :text
+                           '("おれは" (:ruby "頗" "すこぶ") "る気分がいい"))
+"おれは頗る気分がいい"
 ```
 
 
